@@ -54,11 +54,11 @@ the Flutter app that displays a list of Simpsons/TheWire characters from the Duc
 
 ## Directory Structure
 
-   lib->
-     app.dart
-     main_simpsons.dart
-     main_wire.dart
-     features--->
+     lib->
+         app.dart
+         main_simpsons.dart
+         main_wire.dart
+         features--->
                  home--->
                          data --->
                                   character_repository.dart
