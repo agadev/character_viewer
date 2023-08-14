@@ -30,6 +30,7 @@ displays data from a RESTful Web API. The app is comprised of two screens, a lis
 8. Unit tests and UI tests are included for functionality.
    
 ## App Variants
+   
    Variant One
    Name: Simpsons Character Viewer
    Data API: http://api.duckduckgo.com/?q=simpsons+characters&format=json
