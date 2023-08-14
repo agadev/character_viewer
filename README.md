@@ -31,10 +31,10 @@ displays data from a RESTful Web API. The app is comprised of two screens, a lis
    
 ## App Variants
    
-   Variant One
-   Name: Simpsons Character Viewer
-   Data API: http://api.duckduckgo.com/?q=simpsons+characters&format=json
-   Package/Bundle name: com.atul.simpsonsviewer
+    Variant One
+    Name: Simpsons Character Viewer
+    Data API: http://api.duckduckgo.com/?q=simpsons+characters&format=json
+    Package/Bundle name: com.atul.simpsonsviewer
 
     Version Two
     Name: The Wire Character Viewer
@@ -52,8 +52,9 @@ displays data from a RESTful Web API. The app is comprised of two screens, a lis
 This code uses clean architecture with domain, data and ui layer implementations to create 
 the Flutter app that displays a list of Simpsons/TheWire characters from the DuckDuckGo API. 
 
-## Directory Structure----------
-lib->
+## Directory Structure
+
+   lib->
      app.dart
      main_simpsons.dart
      main_wire.dart
