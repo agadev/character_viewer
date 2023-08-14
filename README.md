@@ -152,6 +152,7 @@ We can set up app flavors for this Flutter app that supports both Android and iO
      5. character_detail_page.dart  90% coverage
      6. character.dart  57% coverage,can be increased easily by writing 2 trivial tests
      7. home_controller.dart 70% coverage
+     8. home_page.dat 60% coverage
 
      Test coverage can be increased close to 100% by writing few more tests.
     
