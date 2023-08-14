@@ -22,8 +22,7 @@ void main() {
     apiUrlProvider.overrideWithValue("url"),
     homeControllerProvider.overrideWithProvider(
         StateNotifierProvider((ref) =>
-            HomeController(charactersRepository,
-                state:AsyncData(HomeState(allCharacters: []))))),
+            HomeController(charactersRepository))),
   ];
 
   testWidgets('MyHomePage displays a list of characters', (WidgetTester tester) async {
