@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
+import '../../extensions.dart';
 import '../common_data.dart';
 import '../domain/home_controller_test.dart';
 
@@ -26,6 +27,18 @@ void main() {
   ];
 
   testWidgets('MyHomePage displays a list of characters', (WidgetTester tester) async {
+    await tester.setScreenSize(width: 540, height: 540);
+    await tester.pumpWidget(ProviderScope(
+        overrides: providerOverrides,
+        child:MyApp()));
+
+    await tester.pumpAndSettle();
+    expect(find.text('Homer Simpson'), findsOneWidget);
+    expect(find.text('Marge Simpson'), findsOneWidget);
+  });
+
+  testWidgets('MyHomePage displays a list of characters on tablet', (WidgetTester tester) async {
+    await tester.setScreenSize(width: 600, height: 900);
     await tester.pumpWidget(ProviderScope(
         overrides: providerOverrides,
         child:MyApp()));

@@ -1,4 +1,5 @@
 import 'package:character_viewer/features/home/domain/character.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 String fakeResponseData = '''
         {
@@ -51,3 +52,5 @@ List<Character> fakeCharactersListNoImage = [
 ];
 
 final futureFakeCharactersList = Future.value(fakeCharactersList);
+
+
