@@ -72,9 +72,9 @@ the Flutter app that displays a list of Simpsons/TheWire characters from the Duc
                                 home_page.dart
 
 ## The app is organized into layers, with the 
-1.**main_simpsons.dart** file at the top, entry point for application for simpsons viewer flavor
-2.**main_wire.dart** file at the top, entry point for application for wire viewer flavor
-3.**app.dart** file, which initializes the app. 
+    1.main_simpsons.dart file at the top, entry point for application for simpsons viewer flavor
+    2.main_wire.dart file at the top, entry point for application for wire viewer flavor
+    3.app.dart file, which initializes the app. 
 
 ### The features/home directory contains the code for the home page feature.
 ## ui layer (ui folder includes)
@@ -123,11 +123,10 @@ We can set up app flavors for this Flutter app that supports both Android and iO
      to match the package name of your flavor (e.g. `com.atul.simpsonsviewer`).
 
 
-  ## To run app either select "SimpsonsViewer" or "WireViewer" as flavor 
-   and corresponding main class.
+  ## To run app either select "SimpsonsViewer" or "WireViewer" as flavor and corresponding main class.
 
-  flutter build --flavor SimpsonsViewer -t lib/main_simpsons.dart. 
-  In this way, the entry point of the app is set to main_simpsons.dart
+        flutter build --flavor SimpsonsViewer -t lib/main_simpsons.dart. 
+        In this way, the entry point of the app is set to main_simpsons.dart
 
 ## Unit Tests
    Using mocktail library for testing.
