@@ -1,9 +1,9 @@
 # character_viewer
 
-Character Viewer Flutter project.
+A app to view various Characters made with Flutter.
 
 ## App Description
-A Flutter framework and support both iOS and Android platforms. It fetches and 
+The app supports both iOS and Android platforms. It fetches and 
 displays data from a RESTful Web API. The app is comprised of two screens, a list and a detail.
 
 ## App Features
