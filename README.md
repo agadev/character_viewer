@@ -8,8 +8,9 @@ The app is comprised of two major screens, a list of characters and its details.
 
 ## App Features
 1. App supports both portrait and landscape orientations on both phones and tablets.
+
 2. On phones, the characters list and detail are separate screens, 
-   on tablets :the characters list and detail appears on the same screen.
+   on tablets the characters list and detail appears on the same screen.
 
 3. On all devices, the list is displayed as a text only, 
    vertically scrollable list of character names.
