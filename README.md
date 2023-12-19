@@ -3,8 +3,8 @@
 A app to view various characters of Simpsons/Wire made with Flutter.
 
 ## App Description
-The app supports both iOS and Android platforms. It fetches and  then
-displays data from a RESTful Web API. The app is comprised of two screens, a list and a detail.
+The app supports both iOS and Android platforms.The app displays a list of Simpsons/TheWire characters from the DuckDuckGo API.
+The app is comprised of two major screens, a list of characters and its details.
 
 ## App Features
 1. App supports both portrait and landscape orientations on both phones and tablets.
