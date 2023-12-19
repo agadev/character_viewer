@@ -1,15 +1,15 @@
 # character_viewer
 
-A app to view various Characters made with Flutter.
+A app to view various characters of Simpsons/Wire made with Flutter.
 
 ## App Description
-The app supports both iOS and Android platforms. It fetches and 
+The app supports both iOS and Android platforms. It fetches and  then
 displays data from a RESTful Web API. The app is comprised of two screens, a list and a detail.
 
 ## App Features
 1. App supports both portrait and landscape orientations on both phones and tablets.
-2. On phones, the list and detail are separate screens, 
-   on tablets :the list and detail appears on the same screen.
+2. On phones, the characters list and detail are separate screens, 
+   on tablets :the characters list and detail appears on the same screen.
 
 3. On all devices, the list is displayed as a text only, 
    vertically scrollable list of character names.
@@ -24,10 +24,10 @@ displays data from a RESTful Web API. The app is comprised of two screens, a lis
    For items with blank or missing image URLs, we use a placeholder image. 
    The image path is appended to https://duckduckgo.com/ in order to be construct full image URL.
 
-7. Two variants of the app should are created, using a single shared codebase. 
-   Each variant should have a different name, package-name, and url that it pulls data from.
+7. Two variants of the app are created, using a single shared codebase. 
+   Each variant has a different app name, package-name, and url that it pulls data from.
 
-8. Unit tests and UI tests are included for functionality.
+8. Unit tests and UI tests are included for functionality in the app.
    
 ## App Variants
    
@@ -36,7 +36,7 @@ displays data from a RESTful Web API. The app is comprised of two screens, a lis
     Data API: http://api.duckduckgo.com/?q=simpsons+characters&format=json
     Package/Bundle name: com.atul.simpsonsviewer
 
-    Version Two
+    Variant Two
     Name: The Wire Character Viewer
     Data API: http://api.duckduckgo.com/?q=the+wire+characters&format=json
     Package/Bundle name: com.atul.wireviewer
@@ -50,7 +50,7 @@ displays data from a RESTful Web API. The app is comprised of two screens, a lis
 ## Project Structure and Architecture
 
 This code uses clean architecture with domain, data and ui layer implementations to create 
-the Flutter app that displays a list of Simpsons/TheWire characters from the DuckDuckGo API. 
+the app. The app displays a list of Simpsons/TheWire characters from the DuckDuckGo API. 
 
 ## Directory Structure
 
@@ -71,7 +71,7 @@ the Flutter app that displays a list of Simpsons/TheWire characters from the Duc
                                 character_detail_page.dart
                                 home_page.dart
 
-## The app is organized into layers, with the 
+## The app is organized into layers, with the each having its own reposibilities
     1.main_simpsons.dart file at the top, entry point for application for simpsons viewer flavor
     2.main_wire.dart file at the top, entry point for application for wire viewer flavor
     3.app.dart file, which initializes the app. 
