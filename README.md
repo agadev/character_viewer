@@ -1,6 +1,6 @@
 # character_viewer
 
-A app to displays a list of Simpsons/TheWire characters from the DuckDuckGo API made with Flutter.
+A app to display the list of Simpsons/TheWire characters from the DuckDuckGo API made with Flutter.
 
 ## App Description
 The app supports both iOS and Android platforms.The app displays a list of Simpsons/TheWire characters from the DuckDuckGo API.
